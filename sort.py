@@ -1,6 +1,6 @@
 # python
 
-a_list = [5, 8, 11, 3, 45]
+a_list = [5, 8, 11, 3, 45, 1, 1.1, 4, 6, 28, 111, 2, 33, 444, 5556, 77889, 9900, "re", "weq"]
 
 def insertion_sort(lst):
     for i in range(len(lst)):
@@ -9,7 +9,6 @@ def insertion_sort(lst):
             lst[j], lst[j-1] = lst[j-1], lst[j]
             j -= 1
     return lst
-
 print(insertion_sort(a_list))
 
 

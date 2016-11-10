@@ -12,8 +12,6 @@ def bubble_sort(lst):
   bubble_sort(a_list)
 
 
-a_list = [5, 8, 11, 3, 45]
-
 
 def insertion_sort(lst):
     for i in range(len(lst)):

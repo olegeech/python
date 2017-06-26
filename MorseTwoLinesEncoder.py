@@ -30,6 +30,6 @@ morse_abc ={
         " " : "/"}
 
 for letter in range(len(string_to_encode)):
-    morse_code += morse_abc[string_to_encode[i].upper()]
+    morse_code += morse_abc[string_to_encode[letter].upper()]
     
 print(morse_code)

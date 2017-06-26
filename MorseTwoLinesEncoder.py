@@ -1,4 +1,4 @@
-str = "string"
+string_to_encode = "string"
 morse_code = ""
 morse_abc ={
         "A" : ".-",
@@ -29,7 +29,7 @@ morse_abc ={
         "Z" : "--..",
         " " : "/"}
 
-for i in range(len(str)):
-    morse_code += morse_abc[str[i].upper()]
+for letter in range(len(string_to_encode)):
+    morse_code += morse_abc[string_to_encode[i].upper()]
     
 print(morse_code)
